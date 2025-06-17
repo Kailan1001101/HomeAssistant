@@ -14,8 +14,8 @@ import java.util.*;
 @Service
 public class chatgptService {
 
-
-        private static final String API_KEY = "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";
+        //Add API Key from OpenAPI
+        //private static final String API_KEY = "";
     private static final String ENDPOINT = "https://api.openai.com/v1/chat/completions";
     private final OkHttpClient client = new OkHttpClient();
     private final ObjectMapper mapper = new ObjectMapper();
